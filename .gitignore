@@ -8,3 +8,5 @@ model/
 yolo_res_training/
 final_train/
 final_test/
+build/
+__pycache__/
