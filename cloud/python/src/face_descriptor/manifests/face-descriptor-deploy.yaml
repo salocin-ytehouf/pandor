@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: face-descriptor
+  labels:
+    app: face-descriptor
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: face-descriptor
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 8
+  template:
+    metadata:
+      labels:
+        app: face-descriptor
+    spec:
+      containers:
+        - name: face-descriptor
+          image: nicolas457/face-descriptor
+          envFrom:
+            - configMapRef:
+                name: face-descriptor-configmap
+            - secretRef:
+                name: face-descriptor-secret

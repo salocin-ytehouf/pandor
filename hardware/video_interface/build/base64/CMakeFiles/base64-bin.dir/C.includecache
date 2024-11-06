@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nico/pandore/hardware/video_interface/base64/bin/base64.c
+stdbool.h
+-
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+unistd.h
+-
+getopt.h
+-
+errno.h
+-
+limits.h
+-
+sys/uio.h
+-
+../include/libbase64.h
+/home/nico/pandore/hardware/video_interface/base64/include/libbase64.h
+
+/home/nico/pandore/hardware/video_interface/base64/include/libbase64.h
+stddef.h
+-
+

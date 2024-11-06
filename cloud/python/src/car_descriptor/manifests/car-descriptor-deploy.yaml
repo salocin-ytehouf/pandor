@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: car-descriptor
+  labels:
+    app: car-descriptor
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: car-descriptor
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 8
+  template:
+    metadata:
+      labels:
+        app: car-descriptor
+    spec:
+      containers:
+        - name: car-descriptor
+          image: nicolas457/car-descriptor
+          envFrom:
+            - configMapRef:
+                name: car-descriptor-configmap
+            - secretRef:
+                name: car-descriptor-secret

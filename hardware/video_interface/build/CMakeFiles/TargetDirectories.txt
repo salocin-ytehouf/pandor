@@ -1,0 +1,15 @@
+/home/nico/pandore/hardware/video_interface/build/CMakeFiles/hw_int_vid.dir
+/home/nico/pandore/hardware/video_interface/build/CMakeFiles/edit_cache.dir
+/home/nico/pandore/hardware/video_interface/build/CMakeFiles/rebuild_cache.dir
+/home/nico/pandore/hardware/video_interface/build/CMakeFiles/list_install_components.dir
+/home/nico/pandore/hardware/video_interface/build/CMakeFiles/install.dir
+/home/nico/pandore/hardware/video_interface/build/CMakeFiles/install/local.dir
+/home/nico/pandore/hardware/video_interface/build/CMakeFiles/install/strip.dir
+/home/nico/pandore/hardware/video_interface/build/base64/CMakeFiles/base64.dir
+/home/nico/pandore/hardware/video_interface/build/base64/CMakeFiles/base64-bin.dir
+/home/nico/pandore/hardware/video_interface/build/base64/CMakeFiles/edit_cache.dir
+/home/nico/pandore/hardware/video_interface/build/base64/CMakeFiles/rebuild_cache.dir
+/home/nico/pandore/hardware/video_interface/build/base64/CMakeFiles/list_install_components.dir
+/home/nico/pandore/hardware/video_interface/build/base64/CMakeFiles/install.dir
+/home/nico/pandore/hardware/video_interface/build/base64/CMakeFiles/install/local.dir
+/home/nico/pandore/hardware/video_interface/build/base64/CMakeFiles/install/strip.dir

@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: detector
+  labels:
+    app: detector
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: detector
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 8
+  template:
+    metadata:
+      labels:
+        app: detector
+    spec:
+      containers:
+        - name: detector
+          image: nicolas457/detector
+          envFrom:
+            - configMapRef:
+                name: detector-configmap
+            - secretRef:
+                name: detector-secret

@@ -1,0 +1,31 @@
+{
+    "cameras": [
+      {
+        "id": 0,
+        "name": "Cam1",
+        "location": "PC",
+        "protocol": "V4L",
+        "port": 0,
+        "username": "",
+        "password": "",
+        "fps": 5,
+        "rgb_feed": true,
+        "ir_feed": false,
+        "battery": false,
+        "final_address": "/dev/video0",
+        "is_door": true
+      }
+
+    ],
+    "database":{
+      "NODE_ID" :0,
+      "NODE_BATTERY": 0,
+      "LAST_BATTERY_TS": "",
+      "LAST_STATE_TS": ""
+    },
+    "worker":{
+      "worker_id":"",
+      "username":"nico@gmail.com",
+      "password":"12345"
+    }
+  }

@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: auth-configmap
+data:
+  MYSQL_HOST: host.minikube.internal
+  MYSQL_USER: pandor_adm
+  MYSQL_DB: pandor_user
+  MYSQL_PORT: "3306"

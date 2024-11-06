@@ -1,0 +1,11 @@
+path: /home/nico/pandore/ai/yolo/data/
+train: train/images
+test: valid/images
+val: valid/images
+
+# Classes 
+nc: 10 # replace based on your dataset's number of classes 
+
+# Class names 
+# replace all class names with your own classes' names 
+names: ['person', 'face', 'bicycle', 'car', 'motorcycle', 'bus', 'truck', 'plate', 'cat', 'dog']

@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: rabbitmq-configmap
+data:
+  PLACEHOLDER: "NONE"
+  RABBITMQ_SERVER_HEARTBEAT: "3600"
+
+
